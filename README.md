@@ -49,21 +49,21 @@ Extracted from MyAnimeList using Jikan API and MyAnimeList API
   - Analyse Top 100 most popular anime (only according to popularity)
 
 ### 4. Classification Machine Learning
-  1. Generate target variable col - successful(1) and unsuccessful(0)
-  2. Data Preprocessing and Feature Engineering
-      - One-hot encode categorical data
-      - Scale Numerical Features
-      - Feature Selection using SelectKBest
-  3. Handling Imbalance Dataset
-      - Stratification
-      - Talks about the con of resampling of data
-      - Model-based Approaches
-  4. Model Selection and Evaluation:
-      - Baseline model using DummyClassifier
-      - Train multiple classification models like logistic regression, Decision Tree, Ada Boosting, Random Forest, KNN, Gradient Boosting, XGBoosting, Extra Trees
-  5. Hyperparameter Tuning
-      - Tune the best model with parameters
-      - Find the highest importance features
+    1. Generate target variable col - successful(1) and unsuccessful(0)
+    2. Data Preprocessing and Feature Engineering
+        - One-hot encode categorical data
+        - Scale Numerical Features
+        - Feature Selection using SelectKBest
+    3. Handling Imbalance Dataset
+        - Stratification
+        - Talks about the con of resampling of data
+        - Model-based Approaches
+    4. Model Selection and Evaluation:
+        - Baseline model using DummyClassifier
+        - Train multiple classification models like logistic regression, Decision Tree, Ada Boosting, Random Forest, KNN, Gradient Boosting, XGBoosting, Extra Trees
+    5. Hyperparameter Tuning
+        - Tune the best model with parameters
+        - Find the highest importance features
 
 ### 5. Time Series 
 From our data processing we’ve identified some variables with potential for correlation. We’ve also identified genre as a potential variable that may help us answer our question. So, as you can see, our first approach is to use regression models with numeric data that have moderate to high correlations. The genre we will focus on is Action as there is a lot of action anime and the numeric data we will use is score, popularity and statistics_plan_to_watch as they have moderate correlation with one another.
