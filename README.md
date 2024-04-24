@@ -1,11 +1,14 @@
 # SC1015-Project-Anime-Success
 SC1015 Mini-Project
 
+![alt text](https://github.com/minhgui/SC1015-Project-Anime/blob/main/top25animecharacters-blogroll-1660777571580.jpg?raw=true)
+
 
 # Group Members:
 - Alvin Ong Ming Hui
 - Jan Cheng Jie
 - Tay Zhi Xian
+
 
 # Our Motivation:
 As an avid anime lovers ourselves, our love for anime is at the core of wy we embarked on this project. We understand the joy and inspiration that anime brings to its viewers, and we are driven to contribute to industry that bring us joy so much. By leevraging our skills in data analysis and predictive modeling, we aim to give back to the community and industry and that have enriched our lives.
