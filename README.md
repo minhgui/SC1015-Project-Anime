@@ -74,6 +74,8 @@ Another approach is, we looked at whether popularity over time would be able to 
 
 As you can see, it is indeed useful. But we have learnt that for time series data, the kind of data that we would need to answer our question would have to be much more in terms of over time, for example, if we could get the score for every action anime episode and their average score or popularity per episode we will have a model that might show some semblance of use in determining future anime popularity for action genre anime rather than just the score for many individual anime series as there isn’t enough.
 
+
+
 # References:
 - https://jikan.moe
 - https://myanimelist.net/apiconfig/references/api/v2
